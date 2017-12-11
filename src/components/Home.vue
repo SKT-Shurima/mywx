@@ -7,7 +7,11 @@
       轻触继续
     </div>
     <footer class="footer">
-        ©2017-2018.<a href="http://www.miitbeian.gov.cn/">浙ICP备17029193号-1</a>
+        <dl>
+            <dt><i class="icon-ghs"></i><a href="http://www.beian.gov.cn/portal/registerSystemInfo?spm=a21bo.2017.1997523009.41.226f7b8eLh4EAA&recordcode=33010802008534">浙ICP备17029193号-1</a></dt>
+            <dd>Designed and developed by Dean Lee.</dd>
+            <dd>Copyright © 2017-2018 vuelog.com. All Rights Reserved.</dd>
+        </dl>
     </footer>
   </div>
 </template>
@@ -44,11 +48,12 @@ p{
   text-indent: 2em;
   font-size: .26rem;
   line-height: .4rem;
+    padding-right: .3rem;
   animation: topup 2s;
 }
 .tips{
   position: fixed;
-  bottom: 10%;
+  bottom: 12%;
   width: 100%;
   font-size: .2rem;
   text-align: center;
@@ -60,6 +65,16 @@ p{
   width: 100%;
   text-align: center;
   font-size: .12rem;
+  line-height: .3rem;
+}
+.icon-ghs{
+    display: inline-block;
+    width: .3rem;
+    height: .3rem;
+    margin-right: .1rem;
+    vertical-align: -.04rem;
+    background: url(../../static/img/ghs.png) no-repeat;
+    background-size: contain;
 }
 @keyframes topup {
   from {top: 100vh;opacity: 0;}

@@ -2,6 +2,15 @@
 .wrap{
   min-height: 100vh;
 }
+.primary{
+	color: #f9c;
+}
 .bg-primary{
-  background-color: #26a2ff;
+  background-color: #F9c;
+}
+.mint-cell-value .mint-switch-core{
+	height: 22px;
+}
+.mint-cell-value .mint-switch-core:before,.mint-cell-value .mint-switch-core:after{
+	height: 20px;
 }
