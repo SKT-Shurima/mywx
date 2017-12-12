@@ -46,7 +46,7 @@ export default {
             datetype2: true,
             date1: '',
             date2: '',
-            sex: '', 
+            sex: '',
             visible: true,
             birth: '',
             pickval: ''
@@ -81,9 +81,6 @@ export default {
         find(){
             this.$router.push({path: '/info', query:{date1: this.date1,type1:this.datetype1,date2:this.date2,type2:this.datetype2}});
         }
-    },
-    mounted(){
-        console.log(this)
     }
 }
 </script>

@@ -15,29 +15,29 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-Taurus:before { content: "\e66f"; }
+.icon-taurus:before { content: "\e66f"; }
 
-.icon-Virgo:before { content: "\e670"; }
+.icon-virgo:before { content: "\e670"; }
 
-.icon-Scorpio:before { content: "\e671"; }
+.icon-scorpio:before { content: "\e671"; }
 
-.icon-Libra:before { content: "\e672"; }
+.icon-libra:before { content: "\e672"; }
 
-.icon-Aquarius:before { content: "\e673"; }
+.icon-aquarius:before { content: "\e673"; }
 
-.icon-Gemini:before { content: "\e674"; }
+.icon-gemini:before { content: "\e674"; }
 
-.icon-Pisces:before { content: "\e675"; }
+.icon-pisces:before { content: "\e675"; }
 
-.icon-Leo:before { content: "\e676"; }
+.icon-leo:before { content: "\e676"; }
 
-.icon-Sagittarius:before { content: "\e677"; }
+.icon-sagittarius:before { content: "\e677"; }
 
-.icon-Aries:before { content: "\e678"; }
+.icon-aries:before { content: "\e678"; }
 
-.icon-Capricornus:before { content: "\e679"; }
+.icon-capricornus:before { content: "\e679"; }
 
-.icon-Cancer:before { content: "\e67a"; }
+.icon-cancer:before { content: "\e67a"; }
 
 .icon-stars:before { content: "\e601"; }
 
@@ -48,4 +48,3 @@
 .icon-marry:before { content: "\e6a0"; }
 
 .icon-heart:before { content: "\e502"; }
-

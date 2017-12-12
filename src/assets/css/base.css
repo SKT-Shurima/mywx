@@ -14,3 +14,42 @@
 .mint-cell-value .mint-switch-core:before,.mint-cell-value .mint-switch-core:after{
 	height: 20px;
 }
+.v-icon{
+  display: inline-block;
+  width: .3rem;
+  height: .3rem;
+  background: no-repeat;
+  background-size: contain;
+  margin-right: .1rem;
+}
+.v-icon-score0{
+  background-image: url(../../../static/img/score0.png);
+}
+.v-icon-score5{
+  background-image: url(../../../static/img/score5.png);
+}
+.v-icon-score10{
+  background-image: url(../../../static/img/score10.png);
+}
+.v-icon-music{
+  position: fixed;
+  z-index: 100;
+  right: .5rem;
+  top: 1rem;
+  margin: auto;
+  width: .6rem;
+  height: .6rem;
+  animation: musicPlay 2s linear infinite;
+  background-image: url(../../../static/img/music.png);
+}
+.v-icon-musicoff{
+  background-image: url(../../../static/img/musicoff.png);
+}
+@-webkit-keyframes musicPlay {
+	from {
+		transform: rotateZ(0);
+	}
+	to {
+		transform: rotateZ(360deg);
+	}
+}
